@@ -12,6 +12,15 @@ const Nav = () => (
         <span sx={{color: 'text', fontSize: 3, cursor: 'pointer'}}>notes</span>
       </Link>
 
+      <a sx={{
+          color: 'text',
+          fontSize: 3,
+          cursor: 'pointer'
+        }}
+        href={process.env.HELP_APP_URL}
+      >
+        Help
+      </a>
     </nav>
   </header>
 )
